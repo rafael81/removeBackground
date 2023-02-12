@@ -49,7 +49,8 @@ export default async function handler(
     },
     body: JSON.stringify({
       version:
-        "9283608cc6b7be6b65a8e44983db012355fde4132009bf99d976b2f0896856a3",
+        // "9283608cc6b7be6b65a8e44983db012355fde4132009bf99d976b2f0896856a3",
+        "fb8af171cfa1616ddcf1242c093f9c46bcada5ad4cf6f2fbe8b81b330ec5c003",
       input: { img: imageUrl, version: "v1.4", scale: 2 },
     }),
   });
